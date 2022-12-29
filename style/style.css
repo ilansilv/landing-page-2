@@ -46,10 +46,6 @@ a:hover {
     flex-direction: row;
 }
 
-.side{
-    background-color: hsl(236, 13%, 42%);
-    color: white;
-}
 
 .principal{
     max-width: 1000px;
@@ -96,9 +92,13 @@ button:hover {
 .side{
     display: list-item;
     flex-direction: column;
-    width: 300px;
-
+    width: 300px;    
+    background-color: hsl(240, 100%, 5%) ;
+    color: white;
+    height: 500px;
 }
+
+
 
 h2{
     margin: 20px 20px;
@@ -107,6 +107,8 @@ h2{
 
 .titulo-side{
     margin-left: 20px;
+    font-weight: bold;
+    color: white;
 }
 
 .paragrafo-side{
@@ -114,9 +116,47 @@ h2{
     border-bottom: 2px solid white;
     width: 250px;
     padding-bottom: 30px;
+
 }
 
 .conteudo-side{
     margin: 20px 0;
-    
+}
+
+.bottom{
+    display: flex-gab;
+    justify-content: center;
+}
+
+.secao-bottom{
+    display: flex-gab;
+    justify-content: center;
+}
+
+.img-bottom{
+    width: 120px;
+}
+
+.conteudo-bottom{
+    display: flex;
+}
+
+.conteudo-bottom a{
+    position: relative;
+    top: 70px;
+    right: 64px;
+    width: 300px;
+    font-weight: bold;
+}
+
+.conteudo-bottom a:hover{
+    cursor: pointer;
+    color:  hsl(35, 77%, 62%);
+}
+
+.conteudo-bottom p{
+    position: relative;
+    top: 100px;
+    right: 365px;
+    width: 200px;
 }
