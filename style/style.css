@@ -57,7 +57,7 @@ a:hover {
 }
 
 .principal img{
-    width: 1000px;
+    width: 700px;
 }
 
 .titulo-conteudo h1{
@@ -66,4 +66,57 @@ a:hover {
     margin: 40px 0;
     letter-spacing: 2px;
     color:hsl(240, 100%, 5%);
+}
+
+.paragrafo-conteudo{
+    width: 300px;
+    position: relative;
+    left: 400px;
+    bottom: 155px;
+}
+
+button{
+    padding: 15px 30px;
+    background-color: rgb(243, 75, 75);
+    border: none;
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+    left: 400px;
+    bottom: 135px;
+}
+
+button:hover {
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.side{
+    display: list-item;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+h2{
+    margin: 20px 20px;
+    font-size: 40px;
+}
+
+.titulo-side{
+    margin-left: 20px;
+}
+
+.paragrafo-side{
+    margin-left: 20px;
+    border-bottom: 2px solid white;
+    width: 250px;
+    padding-bottom: 30px;
+}
+
+.conteudo-side{
+    margin: 20px 0;
+    
 }
